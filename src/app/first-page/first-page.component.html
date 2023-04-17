@@ -1,0 +1,13 @@
+<body>
+    
+    <h1 style="font-family:Verdana">Guess the Country</h1>
+    <div>
+        <img src="{{randomObject?.image}}" width="300px" height="300px">
+        <br>
+        <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm.value)">
+            <input type="text" id="name" placeholder="Enter Country Name" name="name" ngModel>
+            <button type="submit">Submit</button>
+        </form>
+        <p>{{addMessage}}</p>
+    </div>
+    </body>

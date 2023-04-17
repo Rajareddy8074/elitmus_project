@@ -1,0 +1,24 @@
+<div  *ngIf=!showLogin class="sign-up">
+    <h1>User SignUp</h1>
+    <p class="error-message">{{indication}}</p>
+    <form #userSignuP="ngForm" (ngSubmit)="signUp(userSignuP
+    .value)" class="common-form">
+        <input class="form-input" type="text" name="name" placeholder="Username" ngModel>
+        <input class="form-input" type="text" name="password" placeholder="Password" ngModel>
+        <input class="form-input" type="text" name="email" placeholder="Email" ngModel>
+        <button class="form-button">signUp</button>
+    </form>
+    <a (click)="toggleLogin()">Already have a account?Please Login</a>
+</div>
+
+<div *ngIf=showLogin  class="Login">
+    <h1>User SignUp</h1>
+    <p class="error-message">{{showInvalid}}</p>
+    <form #userLogin="ngForm" (ngSubmit)="Login(userLogin
+    .value)" class="common-form">
+        <input class="form-input" type="text" name="email" placeholder="Email" ngModel>
+        <input class="form-input" type="text" name="password" placeholder="Password" ngModel>
+        <button class="form-button">Login</button>
+    </form>
+    <a (click)="togglesignUp()">Don't have a account?Please signUp</a>
+</div>

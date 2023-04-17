@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "name": "raja",
+      "password": "1234",
+      "email": "raja@gmail.com",
+      "id": 1
+    }
+    
+  ],
+  "flags": [
+    {
+      "name": "Netherlands",
+      "image": "https://i.ebayimg.com/images/g/3KsAAOSwMRZhg-i8/s-l500.jpg"
+    },
+    {
+      "name": "Israel",
+      "image": "https://www.worldatlas.com/r/w960-q80/upload/e8/49/c0/shutterstock-1527508808.jpg"
+    },
+    {
+      "name": "Afghanisthan",
+      "image": "https://cdn.countryflags.com/thumbs/afghanistan/flag-square-250.png "
+    },
+    {
+      "name": "Argentina",
+      "image": "https://cdn.countryflags.com/thumbs/argentina/flag-square-500.png"
+    },
+    {
+      "name": "Bangladesh",
+      "image": "https://cdn.countryflags.com/thumbs/bangladesh/flag-square-500.png"
+    },
+    {
+      "name": "Algeria",
+      "image": "https://cdn.countryflags.com/thumbs/algeria/flag-square-500.png"
+    },
+    {
+      "name": "Suriname",
+      "image": "https://cdn.britannica.com/20/4520-004-F090B3C8/Flag-Suriname.jpg"
+    },
+    {
+      "name": "India",
+      "image": "https://media.istockphoto.com/id/1349796126/photo/flag-of-india.jpg?b=1&s=170667a&w=0&k=20&c=1pWIs3VkXqu1wNBGcztG5IixaN4oGA-nul4Ynb1G2QY="
+    },
+    {
+      "name": "United Arab Emirates",
+      "image": "https://cdn.britannica.com/82/5782-004-BD7056FF/Flag-United-Arab-Emirates.jpg"
+    }
+  ]
+}

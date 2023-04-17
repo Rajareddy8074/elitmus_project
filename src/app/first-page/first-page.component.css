@@ -1,0 +1,24 @@
+body{
+    background-image: url("https://www.shutterstock.com/image-photo/question-mark-on-blue-background-1595492578");
+    background-repeat: no-repeat;
+}
+h1{
+max-width: max-content;
+margin: auto;   
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+img{
+display:block;
+margin-left: auto;
+margin-right: auto; 
+
+}
+input[type="text"],button{
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+button{
+background-color:wheat;
+}

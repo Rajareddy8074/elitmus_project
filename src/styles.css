@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: sans-serif;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+
+.form-input{
+    text-align: center;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    padding: 5px;
+    margin: 10px;
+}
+
+.form-button{
+    text-align: center;
+    margin-left: 1.5%;
+    border: 2px solid blueviolet;
+    margin: 10px;
+    height: 30px;
+}
+
+.error-message{
+    color:red;
+}
+
+.message-p{
+    color:red;
+    padding: 20px;
+}
